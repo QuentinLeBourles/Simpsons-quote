@@ -7,7 +7,7 @@
   height: 80px;
 }
 .App-logo2 {
-  animation: App-logo-spin2 infinite 10s linear;
+  animation: App-logo-spin2 infinite 1s linear;
   height: 80px;
 }
 .App-header {
@@ -31,6 +31,6 @@
 }
 
 @keyframes App-logo-spin2 {
-  from { transform: scale(0.1); }
-  to { transform: scale(2); }
+  from { transform: scale(0.1) rotate(180deg); }
+  to { transform: scale(2) rotate(360deg); }
 }

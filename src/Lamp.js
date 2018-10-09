@@ -8,7 +8,9 @@ class Lamp extends Component {
         };
       }
       handleClick = () => {
-        this.setState({ on: !this.state.on });
+        this.setState({ 
+            on: !this.state.on
+         });
       };
   render() {
     const light = this.state.on ? 'Workin' : 'DANGER';
